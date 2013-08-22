@@ -1,0 +1,6 @@
+.DS_Store
+*.docx
+__Worksheets/
+.M00*
+*copy.html
+*.zip
