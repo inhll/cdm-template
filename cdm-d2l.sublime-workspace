@@ -1,0 +1,594 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "1 Using the CDM Template.html",
+			"settings":
+			{
+				"buffer_size": 4670,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2 A Quick D2L Overview.html",
+			"settings":
+			{
+				"buffer_size": 6535,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n	<head>\n		<meta charset=\"utf-8\"><!-- Set the viewport width to device width for mobile -->\n		<meta name=\"viewport\" content=\"width=device-width\">\n		<link rel=\"stylesheet\" href=\"_css/normalize.css\" type=\"text/css\">\n		<link rel=\"stylesheet\" href=\"_css/foundation.min.css\" type=\"text/css\">\n		<title></title>\n	</head>\n	<body>\n		<div class=\"row\">\n			<div class=\"large-12 columns\">\n				<h1>\n					Working with Foundation\n				</h1>\n				<hr>\n				<h2 class=\"subheader\">\n					Foundation Front-End Framework (CSS/JS)\n				</h2>\n				<p>\n					This template uses Foundation, a responsive front-end framework, to make it easier to format content in D2L. For your convenience both the CSS and Javascript libraries have been included. JS has been omitted from the default page layout below but implementing it is simple, just refer to the&nbsp;<a href=\"http://foundation.zurb.com/docs/javascript.html\" target=\"_blank\">implementation documentation</a>. Foundation is built into every page; you can use the following body for your HTML page:\n				</p>\n				<div class=\"panel\">\n					<code>&lt;!DOCTYPE html&gt;<br>\n					&lt;head&gt;<br>\n					&nbsp; &lt;meta charset=\"utf-8\" /&gt;<br>\n					&nbsp; &lt;!-- Set the viewport width to device width for mobile --&gt;<br>\n					&nbsp; &lt;meta name=\"viewport\" content=\"width=device-width\" /&gt;<br>\n					&nbsp; &lt;link rel=\"stylesheet\" href=\"../_css/normalize.css\"&gt;<br>\n					&nbsp; &lt;link rel=\"stylesheet\" href=\"../_css/foundation.css\"&gt;<br>\n					&lt;/head&gt;<br>\n					&lt;body&gt;<br>\n					&nbsp; &lt;div class=\"row\"&gt;<br>\n					&nbsp;&nbsp; &lt;div class=\"large-12 columns\"&gt;<br>\n					<br>\n					&nbsp;&nbsp;&nbsp;&nbsp; &lt;h1&gt; [Your Page Title Goes Here] &lt;/h1&gt; &lt;hr /&gt;<br>\n					<br>\n					&nbsp;&nbsp;&nbsp;&nbsp; &lt;p&gt; [Your Page Content Goes Here] &lt;/p&gt;<br>\n					<br>\n					&nbsp;&nbsp; &lt;hr /&gt;&lt;hr /&gt;<br>\n					&nbsp;&nbsp; &lt;/div&gt;<br>\n					&nbsp; &lt;/div&gt;<br>\n					&lt;/body&gt;<br>\n					&lt;/html&gt;<br></code>\n				</div>\n				<h4 class=\"subheader\">\n					For more information on working with Foundation, visit <a href=\"http://foundation.zurb.com/docs/\">the Foundation Documentation</a>.\n				</h4>\n				<hr>\n				<h2 class=\"subheader\">\n					Example Layouts\n				</h2>\n				<p>\n					Below are a few examples of layouts created using only built-in Foundation elements and photos found online.\n				</p>\n				<div class=\"panel\">\n					<div class=\"row\">\n						<div class=\"large-12 columns\">\n							<h1>\n								Example 1 - Sed posuere vitae ante\n							</h1>\n							<hr>\n							<div class=\"row\">\n								<div class=\"large-6 columns\">\n									<h2 class=\"subheader\">\n										Overview\n									</h2>\n									<p>\n										In this module we will cover lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nunc sapien, vel dictum lorem tincidunt vel. Sed posuere vitae ante eget posuere. Duis eleifend lobortis dapibus. Donec lobortis pharetra orci eget egestas...\n									</p>\n									<p>\n										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n									</p>\n								</div>\n								<div class=\"large-6 columns text-center\">\n									<img src=\"_img/placeholder-5.png\" alt=\"Placeholder\">\n									<hr>\n									<a href=\"#\" class=\"button round\">Download Code Example</a>\n								</div>\n							</div>\n							<hr>\n							<div class=\"row\">\n								<div class=\"large-6 columns\">\n									<h2 class=\"subheader\">\n										Learning Objectives\n									</h2>\n									<p>\n										Upon completing this module, you will be able to:\n									</p>\n									<ul>\n										<li>Identify key terms from [the materials covered].\n										</li>\n										<li>Recall some stuff\n										</li>\n										<li>Order some steps in a process\n										</li>\n									</ul><img src=\"_img/placeholder-6.png\" alt=\"Placeholder\">\n								</div>\n								<div class=\"large-6 columns\">\n									<h2 class=\"subheader\">\n										Key Terms and Concepts\n									</h2>\n									<p>\n										Familiarize yourself with the following key terms and concepts:\n									</p>\n									<dl>\n										<dt>\n											Term 1\n										</dt>\n										<dd>\n											Nam et mi rhoncus, sagittis velit ac, semper sapien.\n										</dd>\n										<dt>\n											Term 2\n										</dt>\n										<dd>\n											Aliquam facilisis massa vel risus hendrerit blandit.\n										</dd>\n										<dt>\n											Term 3\n										</dt>\n										<dd>\n											Aliquam vestibulum mi nec tincidunt vestibulum.\n										</dd>\n										<dt>\n											Term 4\n										</dt>\n										<dd>\n											Curabitur eget massa at magna sollicitudin mattis sed vel urna.\n										</dd>\n										<dt>\n											Term 5\n										</dt>\n										<dd>\n											Integer pellentesque nisl ultricies consectetur tempor.\n										</dd>\n									</dl>\n								</div>\n							</div>\n							<hr>\n							<footer class=\"row\">\n								<div class=\"large-4 columns\">\n									<a href=\"#\"><img src=\"http://placehold.it/80x80&amp;text=TOP\" alt=\"\"></a>\n								</div>\n								<div class=\"large-8 columns text-right\">\n									<a href=\"#\"><img src=\"http://placehold.it/350x80&amp;text=Img%20Link\" alt=\"\"></a>\n								</div>\n							</footer>\n							<hr>\n							<hr>\n						</div>\n					</div>\n				</div>\n				<h4 class=\"subheader\">\n					The <a href=\"http://teachingcommons.depaul.edu/Technology/D2L/index.html\">Teaching Commons Desire2Learn documentation</a> is an excellent resource.\n				</h4>\n				<h4 class=\"subheader\">\n					If you are stuck on anything for more than 10-15 minutes, send me an email at <a href=\"mailto:ihall@depaul.edu\">ihall@depaul.edu</a>. I'll get back to you with an answer ASAP.\n				</h4>\n				<hr>\n				<footer class=\"row\">\n					<div class=\"large-4 columns\">\n						<a href=\"#\" class=\"button radius\">&uarr; &nbsp;Top</a>\n					</div>\n					<div class=\"large-8 columns text-right\">\n						<a href=\"http://fits.depaul.edu\" target=\"_blank\" class=\"button radius\">FITS Website</a>\n					</div>\n					<hr>\n					<hr>\n				</footer>\n			</div>\n		</div>\n	</body>\n</html>",
+			"file": "3 Working With Foundation.html",
+			"file_size": 6510,
+			"file_write_time": 1377534056000000,
+			"settings":
+			{
+				"buffer_size": 6414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\"><!-- Set the viewport width to device width for mobile -->\n        <meta name=\"viewport\" content=\"width=device-width\">\n        <link rel=\"stylesheet\" href=\"_css/normalize.css\" type=\"text/css\">\n        <link rel=\"stylesheet\" href=\"_css/foundation.min.css\" type=\"text/css\">\n        <title></title>\n    </head>\n    <body>\n        <div class=\"row\">\n            <div class=\"large-12 columns\">\n                <h1>\n                    Ten Steps Start of Term Checklist\n                </h1>\n                <hr>\n                <h3 class=\"subheader\">\n                    Start of term is here.\n                </h3>\n                <h3 class=\"subheader\">\n                    This page covers everything you need to get your course ready.\n                </h3>\n                <hr>\n                <h3 class=\"subheader\">\n                    <small>You may not need to complete every item on this list.</small>\n                </h3>\n                <div class=\"panel\">\n                    <h2>\n                        1 <small>Set Up or Copy Your Course</small>\n                    </h2>\n                    <p>\n                        If this is your first course ever, you will need to get it started. Copy your course from the previous or master course. To copy a course you can either:\n                    </p>\n                    <ul>\n                        <li>Watch a 2-minute video: <a href=\"http://d2l.iddresources.org/documents/video/44\" target=\"_blank\">http://d2l.iddresources.org/documents/video/44</a>\n                        </li>\n                        <li>Request a copy be made via the D2L Request Forms: <a href=\"http://www.itd.depaul.edu/lmsforms/allforms.aspx\" target=\"_blank\">http://www.itd.depaul.edu/lmsforms/allforms.aspx</a>\n                        </li>\n                    </ul>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        2 <small>Set up COL Widget</small>\n                    </h2>\n                    <p>\n                        To make the COL widget active, please follow these instructions:\n                    </p>\n                    <ol>\n                        <li>Access your course\n                        </li>\n                        <li>Click EDIT COURSE in the navigation bar\n                        </li>\n                        <li>Click HOMEPAGES\n                        </li>\n                        <li>Click SET next to the \"CDM Homepage\"\n                        </li>\n                        <li>Click SET ACTIVE\n                        </li>\n                        <li>You're all done!\n                        </li>\n                    </ol>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        3 <small>Update Dates</small>\n                    </h2>\n                    <p>\n                        Ensure all date restrictions and updates are correct in the following areas:\n                    </p>\n                    <ul>\n                        <li>Content\n                        </li>\n                        <li>Checklist\n                        </li>\n                        <li>Discussion Board\n                        </li>\n                        <li>Dropbox\n                        </li>\n                        <li>News postings\n                        </li>\n                    </ul>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        4 <small>Update e-Reserve &amp; COLTube Links</small>\n                    </h2>\n                    <p>\n                        Ensure that e-Reserve (ARES) and COLTube links work.\n                    </p>\n                    <div class=\"row\">\n                        <div class=\"large-4 columns\">\n                            <h3 class=\"subheader\">\n                                COLTube Videos\n                            </h3>\n                            <hr>\n                            <p>\n                                Help with COLTube is <a href=\"http://coltube.cdm.depaul.edu/ColTube/Home/About\" target=\"_blank\">available here</a>.\n                            </p>\n                        </div>\n                        <div class=\"large-8 columns\">\n                            <h3 class=\"subheader\">\n                                e-Reserves / ARES\n                            </h3>\n                            <hr>\n                            <p>\n                                Adding the link to your ARES list is relatively simple and will continue to work after content is copied to your future course. To make the link:\n                            </p>\n                            <blockquote>\n                                <ol>\n                                    <li>In the edit mode for a D2L page, place your cursor in the spot where you’d like to add the link.\n                                    </li>\n                                    <li>Click on the “Insert Quicklink” icon\n                                    </li>\n                                    <li>In the “Category” dropdown menu, select “External Learning Tools”\n                                    </li>\n                                    <li>In the “External Learning Tools” dropdown menu, select “ARES”\n                                    </li>\n                                    <li>In the “Link Caption” textbox, Type in the hotlink text (for example: “E-reserves for LSP 111”)\n                                    </li>\n                                    <li>Select the button next to “New Window” (we recommend this so students can look back and forth between the reading list in D2L and the items in -reserve list)\n                                    </li>\n                                    <li>Click on “Insert”\n                                    </li>\n                                </ol>\n                            </blockquote>\n                            <p>\n                                <strong>If you have a long list of e-reserves:</strong> To make finding a specific item easier for your students, add “tags” to each item in the list (for example: all the readings for week 1 are tagged \"week 1\"; all the week 2 items are tagged \"week 2\" etc.) so that students can click on a tag and view only the items with that tag.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        5 <small>Refresh Syllabus</small>\n                    </h2>\n                    <p>\n                        Ensure your PDF syllabus is up to date and uploaded.\n                    </p>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        6 <small>Be The Student</small>\n                    </h2>\n                    <p>\n                        Go to the course home and view the course as a student. Check for any content that should not be visible to the students immediately.\n                    </p>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        7 <small>Open Up</small>\n                    </h2>\n                    <p>\n                        Make your course active for students. To make your course available:\n                    </p>\n                    <ol>\n                        <li>Access your course\n                        </li>\n                        <li>Click EDIT COURSE\n                        </li>\n                        <li>Click COURSE OFFERING INFORMATION\n                        </li>\n                        <li>Check the checkbox next to \"Course is Active.\"\n                        </li>\n                        <li>Click SAVE and your students have access.\n                        </li>\n                    </ol>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        8 <small>Welcome Email</small>\n                    </h2>\n                    <p>\n                        Send your students a welcome email inviting them to access the course, ideally including the following:\n                    </p>\n                    <ul>\n                        <li>Introduce yourself\n                        </li>\n                        <li>Provide contact information for yourself including preferred method of contact (email/phone) and standard response time\n                        </li>\n                        <li>Provide information about when the course will officially begin\n                        </li>\n                        <li>Provide schedule information (what day will each week/module begin end)\n                        </li>\n                        <li>Set expectations for \"attending\" class (how much time each week they should typically expect to spend in the course site)\n                        </li>\n                        <li>Direct students to important parts of the syllabus\n                        </li>\n                        <li>Direct students to the help sections of the class\n                        </li>\n                    </ul>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        9 <small>Post The News</small>\n                    </h2>\n                    <p>\n                        Post the welcome email as a news announcement. Not everyone checks email (especially students).\n                    </p>\n                </div>\n                <div class=\"panel\">\n                    <h2>\n                        10 <small>Success!</small>\n                    </h2>\n                    <p>\n                        That is all. Well done, seriously.\n                    </p>\n                </div>\n                <div class=\"row\">\n                    <div class=\"large-8 columns large-centered\">\n                        <img src=\"_img/calvin-dancing.png\" alt=\"Calvin Dancing\">\n                    </div>\n                </div>\n                <hr>\n                <h3 class=\"subheader\">\n                    While the course is going, please use me as a resource.\n                </h3>\n                <h4 class=\"subheader\">\n                    The <a href=\"http://teachingcommons.depaul.edu/Technology/D2L/index.html\">Teaching Commons Desire2Learn documentation</a> is also an excellent resource.\n                </h4>\n                <h4 class=\"subheader\">\n                    If you are stuck on anything for more than 10-15 minutes, send me an email at <a href=\"mailto:ihall@depaul.edu\">ihall@depaul.edu</a>. I'll get back to you with an answer ASAP.\n                </h4>\n                <hr>\n                <footer class=\"row\">\n                    <div class=\"large-4 columns\">\n                        <a href=\"#\" class=\"button radius\">↑ &nbsp;Top</a>\n                    </div>\n                    <div class=\"large-8 columns text-right\">\n                        <a href=\"http://fits.depaul.edu\" target=\"_blank\" class=\"button radius\">FITS Website</a>\n                    </div>\n                    <hr>\n                    <hr>\n                </footer>\n            </div>\n        </div>\n    </body>\n</html>",
+			"file": "4 Start of Term Checklist.html",
+			"file_size": 11790,
+			"file_write_time": 1377534048000000,
+			"settings":
+			{
+				"buffer_size": 11273,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n	<head>\n		<meta charset=\"utf-8\"><!-- Set the viewport width to device width for mobile -->\n		<meta name=\"viewport\" content=\"width=device-width\">\n		<link rel=\"stylesheet\" href=\" _css/normalize.css\" type=\"text/css\">\n		<link rel=\"stylesheet\" href=\" _css/foundation.min.css\" type=\"text/css\">\n		<title></title>\n	</head>\n	<body>\n		<div class=\"row\">\n			<div class=\"large-12 columns\">\n				<h1>\n					Course Development and Support\n				</h1>\n				<hr>\n				<div class=\"row\">\n					<div class=\"large-6 columns\">\n						<div class=\"panel\">\n							<div class=\"row\">\n								<div class=\"large-6 columns\">\n									<h3 class=\"subheader\">\n										Ian Hall\n									</h3>\n									<ul class=\"no-bullet\">\n										<li>\n											<a href=\"mailto:ihall@depaul.edu\">ihall@depaul.edu</a>\n										</li>\n										<li>312-607-1312 (cell)\n										</li>\n									</ul>\n								</div>\n								<div class=\"large-6 columns\">\n									<img src=\"_img/ian-head-shot-ktb-2.png\" alt=\"Picture of Ian\" />\n								</div>\n							</div>\n						</div>\n					</div>\n					<div class=\"large-6 columns\">\n						<h3 class=\"subheader\">\n							If you are stuck on anything for more than 10-15 minutes, send me an email at <a href=\"mailto:ihall@depaul.edu\">ihall@depaul.edu</a>. I'll get back to you with an answer ASAP.\n						</h3>\n						<h3 class=\"subheader\">\n							I'm here for <em>you</em>.\n						</h3>\n					</div>\n				</div>\n				<hr>\n				<div class=\"row\">\n					<div class=\"large-6 columns\">\n						<h4>\n							I can help with things like:\n						</h4>\n						<ul>\n							<li>\n								<strong>Understanding D2L</strong> - not everything in D2L makes sense or works as expected. I can help it make more sense (or confirm your suspicions).\n							</li>\n							<li>\n								<strong>Creating quizzes</strong> - come up with a bunch of questions and I can create your quizzes quickly. You can too, with the <a href=\"http://academictech.doit.wisc.edu/help/learnuw-quiz-question-importer-tool\" target=\"_blank\">Learn@UW Question Importer</a>.\n							</li>\n							<li>\n								<strong>Being a sounding board</strong> - sometimes you just need a place to start. Has anyone else done something similar? I might know (or have an idea).\n							</li>\n							<li>\n								<strong>Creating Stuff</strong> - you don't need to fight with D2L to set up groups, quizzes, dropboxes, grades, and then link them all together. Let me help.\n							</li>\n						</ul>\n						<hr>\n						<h4>\n							Frustrated with D2L?\n						</h4>\n						<p>\n							Submit and vote for D2L features at the <a href=\"https://community.desire2learn.com/login/\" target=\"_blank\">Product Idea Exchange</a>.\n						</p><a href=\"https://community.desire2learn.com/announcing-the-product-idea-exchange/\" class=\"button\" target=\"_blank\">Learn How</a>\n					</div>\n					<div class=\"large-6 columns\">\n						<img src=\"_img/calvin-hobbes-6.png\" alt=\"Calvin and Hobbes\">\n					</div>\n				</div>\n				<hr>\n				<h4 class=\"subheader\">\n					The <a href=\"http://teachingcommons.depaul.edu/Technology/D2L/index.html\">Teaching Commons Desire2Learn documentation</a> is an excellent resource.\n				</h4>\n				<h4 class=\"subheader\">\n					If you are stuck on anything for more than 10-15 minutes, send me an email at <a href=\"mailto:ihall@depaul.edu\">ihall@depaul.edu</a>. I'll get back to you with an answer ASAP.\n				</h4>\n				<hr>\n				<footer class=\"row\">\n					<div class=\"large-4 columns\">\n						<a href=\"#\" class=\"button radius\">&uarr; &nbsp;Top</a>\n					</div>\n					<div class=\"large-8 columns text-right\">\n						<a href=\"http://fits.depaul.edu\" target=\"_blank\" class=\"button radius\">FITS Website</a>\n					</div>\n					<hr>\n					<hr>\n				</footer>\n			</div>\n		</div>\n	</body>\n</html>",
+			"file": "5 Course Developer Resources.html",
+			"file_size": 3782,
+			"file_write_time": 1377534061000000,
+			"settings":
+			{
+				"buffer_size": 3688,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				":wall",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Tidy",
+				"Tidy HTML"
+			],
+			[
+				"Tid",
+				"Tidy HTML"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"t",
+				"Tidy HTML"
+			],
+			[
+				"T",
+				"Tidy HTML"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"Ti",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"Inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"In",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"Rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				":ew",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"I",
+				"Tidy HTML"
+			],
+			[
+				":",
+				"SFTP: Browse Server…"
+			],
+			[
+				":e",
+				"SFTP: Edit Server…"
+			],
+			[
+				":insta",
+				"Package Control: Install Package"
+			],
+			[
+				":upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				":add",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"sf",
+				"SFTP: Edit Server…"
+			],
+			[
+				":e Remo",
+				"SFTP: Browse Remote…"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/inhll/Dropbox/Public/d2l/M00 A Quick D2L Overview.html",
+		"/Users/inhll/Dropbox/Public/d2l/M00 Start of Term Checklist.html",
+		"/Users/inhll/Dropbox/Public/d2l/M00 Getting Started with the Template.html",
+		"/Users/inhll/Dropbox/Public/d2l/M00 Course Developer Resources.html",
+		"/Users/inhll/Library/Application Support/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-settings",
+		"/Users/inhll/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/inhll/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/inhll/Dropbox/Public/d2l/_css/general_enclosed_foundicons_ie7.css",
+		"/Users/inhll/Dropbox/Public/d2l/_css/general_enclosed_foundicons.css",
+		"/Users/inhll/Dropbox/Public/ian-hall-portfolio/index.html",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1376507259/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/index.html",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1376317161/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/index.html",
+		"/Users/inhll/Dropbox/Public/ian-hall-portfolio/css/custom.css",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1375920704/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/css/custom.css",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1375920680/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/index.html",
+		"/Users/inhll/Downloads/Package Control.sublime-package",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1375925317/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/css/foundation.css",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1375925262/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/css/foundation.min.css",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1372894488/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/css/custom.css",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1375920630/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/index.html",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1372863780/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/index.html",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1372826048/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/css/custom.css",
+		"/var/folders/6g/cbxqr4452v3d_tkjc6vf9wl40000gp/T/sublime-sftp-browse-1372763866/fbow/home/eelysium/flamingballofwreckage.net/nerd-luv/index.html",
+		"/Users/inhll/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/fbow"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"untitled",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h1",
+			"12",
+			"1",
+			"12",
+			"ul",
+			"https://dl.dropboxusercontent.com/u/2778990/d2l/",
+			"6",
+			"reports",
+			"h3",
+			"em",
+			"12",
+			"strong",
+			"ul",
+			"            <div class=\"alert-box\">This is a work in progress, if something should be added let ihall@depaul.edu know.</div>\n",
+			"h3",
+			"p",
+			"  ",
+			"> ",
+			"h3",
+			"h2",
+			"/d2l/common/dialogs/quickLink/quickLink.d2l?ou=191914&amp;type=checklist&amp;rCode=DePaul-355585",
+			"</strong>",
+			"</span>",
+			"<span style=\"font-size: 10pt;\">",
+			"<strong><span style=\"font-size: 10pt;\">",
+			"<strong><span style=\"font-size: 12pt;\">",
+			"h3",
+			"h2",
+			"h3",
+			"modal",
+			"×",
+			"asid",
+			"aside",
+			"articl",
+			"article",
+			"ank\">Download",
+			"Gets",
+			"download",
+			"Download",
+			"h2",
+			"myExplanation",
+			"p",
+			"outsid",
+			"outsidesi",
+			"=\"../",
+			"h5",
+			"large",
+			"large-6",
+			"large",
+			"h6",
+			"round",
+			"h3",
+			"h2",
+			"h5",
+			"h3",
+			"HCI",
+			"h3",
+			"Winter",
+			" \"",
+			" ",
+			" \"",
+			"it",
+			"\"",
+			"\" ",
+			" \"",
+			".\"<",
+			".",
+			".\"<",
+			" \"",
+			"h4",
+			"h5",
+			"h6",
+			"h4",
+			"_top",
+			"p",
+			"=\"#\"",
+			"h5",
+			"div",
+			"h4",
+			"h6",
+			"ignored_pack"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			">",
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3039,
+								3039
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "1 Using the CDM Template.html",
+					"settings":
+					{
+						"buffer_size": 4670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2049,
+								2049
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "2 A Quick D2L Overview.html",
+					"settings":
+					{
+						"buffer_size": 6535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5758,
+								5758
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1949.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "3 Working With Foundation.html",
+					"settings":
+					{
+						"buffer_size": 6414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "4 Start of Term Checklist.html",
+					"settings":
+					{
+						"buffer_size": 11273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3187,
+								3187
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "5 Course Developer Resources.html",
+					"settings":
+					{
+						"buffer_size": 3688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
