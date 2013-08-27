@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="_css/normalize.css" type="text/css">
 		<link rel="stylesheet" href="_css/foundation.min.css" type="text/css">
+		<script src="_js/custom.modernizr.js"></script>
 		<title></title>
 	</head>
 	<body>
@@ -14,15 +15,43 @@
 					Welcome DePaul CDM faculty!
 				</h1>
 				<hr>
-				<h3 class="subheader">The CDM Template is intended to help you start working in D2L as quickly as possible, with as little headache as possible. Simply download the zip file below, access your course in D2L, upload the file (following the instructions below), and start using the template.</h3>
-				<hr />
-				<h4 class="subheader">If you would like to use the template in a Master -- a D2L course where you can work without anyone else seeing -- you can request a Master here: <a href="http://www.itd.depaul.edu/lmsforms/allforms.aspx" target="_blank">http://www.itd.depaul.edu/lmsforms/allforms.aspx</a></h4>
-				<hr />
 				<div class="row">
-					<div class="large-12 columns large-centered text-center">
-						<br /> <a href="#" class="button round large">Get Template</a><br />
+
+					<div class="large-6 push-6 columns">
+						<h3 class="subheader">The CDM Template is intended to help you start working in D2L as quickly and with as little headache as possible. Simply download the zip file below, access your course in D2L, upload the file (following the instructions below), and start using the template.</h3>
+						<hr />
+						<div class="text-center">
+							<a href="#" class="button round large">Get Template</a><br />
+						</div>
+
 					</div>
+
+					<div class="large-6 pull-6 columns">
+						<div class="slideshow-wrapper">
+						  <div class="preloader"></div>
+							<ul data-orbit data-options="timer_speed:4500; timer:false; slide_number:false; bullets:false;">
+							  <li>
+							    <img src="_img/template-screen-1.png" />
+							  </li>
+							  <li>
+							    <img src="_img/template-screen-2.png" />
+							  </li>
+							  <li>
+							    <img src="_img/template-screen-3.png" />
+							  </li>
+							  <li>
+							    <img src="_img/template-screen-4.png" />
+							  </li>
+							  <li>
+							    <img src="_img/template-screen-5.png" />
+							  </li>
+							</ul>
+						</div>
+
+					</div>
+
 				</div>
+
 				<hr />
 
 				<p><em>Please let me know how the template is working for you (or if it's not, how can I improve it)!</em></p>
@@ -59,6 +88,12 @@
 							<p>If you don't like the template, here's how to get it removed! Ask Ian (ihall@depaul.edu). Better instructions are coming, but for the moment just ask me.</p>
 						</div>
 
+						<h4 class="subheader">You can use the template with no risk in a D2L Master course. A D2L Master course is a private D2L course where you can work on and experiment in your courses.</h4>
+						<hr />
+						<div class="text-center">
+							<a href="http://www.itd.depaul.edu/lmsforms/allforms.aspx" class="button large round" target="_blank">Request a Master</a>
+						</div>
+
 					</div>
 				</div>
 
@@ -82,5 +117,15 @@
 				</footer>
 			</div>
 		</div>
+		<!-- Check for Zepto support, load jQuery if necessary -->
+		<script>
+		  document.write('<script src=_js/vendor/'
+		    + ('__proto__' in {} ? 'zepto' : 'jquery')
+		    + '.js><\/script>');
+		</script>
+		<script src="_js/foundation.min.js"></script>
+		<script>
+		  $(document).foundation();
+		</script>
 	</body>
 </html>
