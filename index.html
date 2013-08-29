@@ -20,17 +20,18 @@
 				</h1>
 				<hr>
 				<h3 class="subheader">
-					The CDM Desire2Learn Template is intended to help you start working in D2L as quickly and with as little headache as possible.
+					The CDM Desire2Learn Template provides a pre-packaged 10-week course framework, D2L documentation, and layout CSS / JS in a zip file.
 				</h3>
-				<hr />
+				<hr>
 				<div class="row">
 					<div class="large-6 push-6 columns">
-				
 						<h4 class="subheader">
 							Simply download the zip file below, access your course in D2L, upload the zip file, and start using the template.
 						</h4>
-						
 						<div class="text-center">
+							<hr>
+							<br>
+							<a href="cdm-template.zip" class="button large radius">Get the Template</a> <!--
 							<ul class="button-group round even-2">
 								<li>
 									<a href="cdm-template.zip" class="button large">Get Full Template</a>
@@ -39,11 +40,12 @@
 									<a href="cdm-template-instructor-only-files.zip" class="button large" target="_blank">Get Instructor Only Files</a>
 								</li>
 							</ul>
-							<a href="https://github.com/inhll/cdm-training" class="button tiny secondary" target="_blank">Clone on Github</a>
-						<hr>
-						<div class="panel">
-							If you only want to upload and link files in D2L, <a href="#" data-reveal-id="showUploadOnly">here is how</a>.
-						</div>
+-->
+							 <a href="https://github.com/inhll/cdm-template" class="button tiny secondary" target="_blank">Clone on Github</a>
+							<hr>
+							<div class="panel">
+								If you only want to upload and link files in D2L, <a href="#" data-reveal-id="showUploadOnly">here is how</a>.
+							</div>
 						</div>
 					</div>
 					<div class="large-6 pull-6 columns">
@@ -73,7 +75,6 @@
 				<h2 class="subheader">
 					What's Included in the Template?
 				</h2>
-
 				<div class="row">
 					<div class="large-7 columns">
 						<h3 class="subheader">
@@ -84,19 +85,19 @@
 						</p>
 						<ul>
 							<li>
-								<strong><a href="1 Using the CDM Template.html" target="_blank">Using The CDM Template</a></a></strong> explains what is included in this template.
+								<strong><a href="1%20Using%20the%20CDM%20Template.html" target="_blank">Using The CDM Template</a></strong> explains what is included in this template.
 							</li>
 							<li>
-								<strong><a href="2 A Quick D2L Overview.html" target="_blank">A Quick D2L Overview</a></strong> describes the absolute basics of D2L's features.
+								<strong><a href="2%20A%20Quick%20D2L%20Overview.html" target="_blank">A Quick D2L Overview</a></strong> describes the absolute basics of D2L's features.
 							</li>
 							<li>
-								<strong><a href="3 Working With Foundation.html" target="_blank">Working with Foundation</a></strong> explains how to use Foundation, and provides example layouts.
+								<strong><a href="3%20Working%20With%20Foundation.html" target="_blank">Working with Foundation</a></strong> explains how to use Foundation, and provides example layouts.
 							</li>
 							<li>
-								<strong><a href="4 Start of Term Checklist.html" target="_blank">Start of Term Checklist</a></strong> explains how to get your D2L course rolling.
+								<strong><a href="4%20Start%20of%20Term%20Checklist.html" target="_blank">Start of Term Checklist</a></strong> explains how to get your D2L course rolling.
 							</li>
 							<li>
-								<strong><a href="5 Course Developer Resources.html" target="_blank">Course Developer and Resources</a></strong> explains how to get in touch with me, what I can help with, and how to submit feature requests.
+								<strong><a href="5%20Course%20Developer%20Resources.html" target="_blank">Course Developer and Resources</a></strong> explains how to get in touch with me, what I can help with, and how to submit feature requests.
 							</li>
 						</ul>
 						<p>
@@ -125,7 +126,7 @@
 						</div>
 					</div>
 				</div>
-				<hr />
+				<hr>
 				<div class="text-center">
 					<h3 class="subheader">
 						Please <a href="mailto:ihall@depaul.edu">let me know</a> how the template is working for you!<br>
@@ -169,9 +170,9 @@
 								<li>Excellent! The template has been installed!
 								</li>
 							</ol>
-							<p>
-								To get started, click "Course Home" in the navigation bar and follow the instructions.
-							</p>
+							<h4 class="subheader">
+								<strong>To get started</strong> click "Course Home" in the navigation bar and follow the instructions.
+							</h4>
 						</div>
 					</div>
 					<div class="large-6 columns">
@@ -212,18 +213,33 @@
 			</div>
 		</div><!-- Check for Zepto support, load jQuery if necessary -->
 		<script type="text/javascript">
-  document.write('<script src=_js/vendor/'
+	document.write('<script src=_js/vendor/'
 			+ ('__proto__' in {} ? 'zepto' : 'jquery')
 			+ '.js><\/script>');
 		</script><script src="_js/foundation.min.js" type="text/javascript">
-</script><script type="text/javascript">
-  $(document).foundation();
 		</script>
+		<!-- Foundation -->
+		<script type="text/javascript">
+			$(document).foundation();
+		</script>
+		<!-- Analytics -->
+		<script type="text/javascript">
+ 		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+		  ga('create', 'UA-43617545-1', 'cdmtemplate.info');
+		  ga('send', 'pageview');
+
+		</script>
 		<div id="showUploadOnly" class="reveal-modal">
-			<h1>Upload only</h1>
-			<p>Coming Soon! Sorry.</p>
-			<a class="close-reveal-modal">×</a>
+			<h1>
+				Upload only
+			</h1>
+			<p>
+				Coming Soon! Sorry.
+			</p><a class="close-reveal-modal">×</a>
 		</div>
 	</body>
 </html>
